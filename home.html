@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ABC School</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script>
+	function run_first() {
+		var id_var = sessionStorage.li_id;
+		if(id_var) {
+			document.getElementById(id_var).style.backgroundColor = "gray";
+		}
+	}
+	
+	function nav_item_selected(li_id) {	
+		for(i = 0; i < 6; i++) {
+			document.getElementById(i.toString()).style.backgroundColor = "";
+		}
+		document.getElementById(li_id.toString()).style.backgroundColor = "gray";
+		
+		//store li_id in sessionStorage
+		sessionStorage.li_id = li_id.toString();		
+	}
+</script>
+</head>
+
+<body onLoad="run_first()">
+	<div id="wrapper">
+	<header>
+    	<h1>ABC School</h1>
+    </header>
+    <div class="nav">
+    	<a href="index.html" id="0" onClick="nav_item_selected(0)">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn" id="1">Courses</button>
+            <div class="dropdown-content">
+            	<a href="mit.html" onClick="nav_item_selected(1)">MIT</a>
+                <a href="mit_mba.html" onClick="nav_item_selected(2)">MIT-MBA</a>	
+            </div>
+        </div>
+        <a href="#" id="3" onClick="nav_item_selected(3)">IT News</a>
+        <a href="#" id="4" onClick="nav_item_selected(4)">Career</a>
+        <a href="about_us.html" id="5" onClick="nav_item_selected(5)">About Us</a>
+        <a href="#" id="6" onClick="nav_item_selected(6)">Contact Us</a>
+    </div>
+    <h1>MIT</h1>
+    <section id="col1">
+    	<h2>Section 1</h2>
+        <p>
+        This is a MIT Course. This is a MIT Course. This is a MIT Course.
+        This is a MIT Course. This is a MIT Course. This is a MIT Course.
+        This is a MIT Course. This is a MIT Course. This is a MIT Course.
+        This is a MIT Course. This is a MIT Course. This is a MIT Course.
+        This is a MIT Course. This is a MIT Course. This is a MIT Course.
+        This is a MIT Course. This is a MIT Course. This is a MIT Course.
+        This is a MIT Course. This is a MIT Course. This is a MIT Course.
+        This is a MIT Course. This is a MIT Course. This is a MIT Course.
+        This is a MIT Course. This is a MIT Course. This is a MIT Course.
+        This is a MIT Course. This is a MIT Course. This is a MIT Course.
+        This is a MIT Course. This is a MIT Course. This is a MIT Course.
+        This is a MIT Course. This is a MIT Course. This is a MIT Course.
+        This is a MIT Course. This is a MIT Course. This is a MIT Course.
+        This is a MIT Course. This is a MIT Course. This is a MIT Course.
+        </p>
+        <h2>More Available Courses</h2>
+        <p>
+        <br><a href="mit_mba.html" onClick="nav_item_selected(1)">MIT-MBA</a>
+        </p>
+    </section>
+    <footer><h4>Design By 007 - 2017</h4></footer>
+    </div>
+</body>
+</html>
