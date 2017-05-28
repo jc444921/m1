@@ -79,11 +79,11 @@ header h1 {
     padding: 14px 16px;
     background-color: inherit;
 }
-#col1 {
+#membershipform {
 	clear: both;
-	width: 30%;
+	width: 35%;
 	float: left;
-	height: 60%;
+	height: 80%;
 	background-color:azure;
 	margin: 5px;
 	padding: 5px;
@@ -92,7 +92,7 @@ header h1 {
 .member_frm {
 	width: 100%;
 }
-#col1 h1, h2 {
+#membershipform h1, h2 {
 	font-size: 110%;
 }
 div {
@@ -107,7 +107,7 @@ div {
 	float: left;
 }
 
-#col1 label {
+#membershipform label {
 	width:6em;
 	float: left;
 	text-align: right;
@@ -126,25 +126,26 @@ div {
 #pwd_msg, #zip_msg {
 	margin-left: 5px;
 }
-#col1 h3 {
+#membershipform h3 {
 	background-color:#A2E4EA;
 	padding: 2px;
 }
 
-#col2 {
-	width: 40%;
+#membershipdetail {
+	width: 60%;
 	float: left;
+	text-align: center;
 	height: 200%;
-	background-color:aquamarine;
+	background-color:#000000;
 	margin: 7px;
 	padding: 10px;	
 }
-#col2 section h2 {
+#membershipdetail h1 {
 	margin-left: 20px;
 	font-size: 190%;
 }
-#col2 img {
-	float:center;
+#membershipdetail img {
+	float:left;
 	margin: 0px 20px 5px 20px;
 }
 #memberships {
@@ -165,46 +166,48 @@ div {
 	margin-left: 10px;
 	margin-right: 10px;
 }
-#col3 {
-	width: 15%;
-	float: left;
-	height: 50%;
-	background-color:aliceblue;
-	margin: 5px 30px 5px 5px;
-	padding: 5px;
-}
-#col3 h3 {
-	margin: 2px;
-	padding-top: 10px;
-}
-h3 {
+
+#payonline {
 	clear: both;
-	float: center;
-	margin: 0 auto;
+	float:inherit;
+	height: 11em;
+	text-align:center;
+	margin-top: 2em;
+	background-color: aliceblue;
+	margin-bottom: 1em;
+	padding-top: 0.5em;
 }
-#col4 {
-	float: left;
-	background-color:aliceblue;
-	height: 60%;
-	width: 15%;
-	margin: 5px 30px 5px 5px;
-	padding: 5px;
+#payonline img {
+	float: right;
+	margin-right: 12em;
+	margin-top: 0.5em;
 }
-#col5 {
+#centre {
 	clear: both;
 	float: left;
 	text-align: center;
 	font-size: 105%;
 	background-color: aliceblue;
 }
-#col5 h4,h5 {
+#centre h1 {
 	font-size: 120%;
 }
-footer h5 {
+#support {
+	clear: both;
+	text-align: center;
+	font-size: 105%;
+	background-color: aliceblue;
+	margin-top: 0.5em;
+}
+#support h1 {
+	font-size: 120%;
+}
+footer h1 {
 	clear: both;
 	font-size: 95%;
+	height: 10%;
 	text-align: center;
-	background-color: gray;
+	background-color: #02071F;
 }
 
 
