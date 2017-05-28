@@ -141,9 +141,9 @@ header h1 {
 }
 footer h1 {
 	clear: both;
-	font-size: 95%;
+	font-size: 120%;
 	text-align: center;
-	background-color: gray;
+	background-color:#02071F;
 }
 
 
