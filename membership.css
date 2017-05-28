@@ -79,128 +79,67 @@ header h1 {
     padding: 14px 16px;
     background-color: inherit;
 }
-#col1 {
-	clear: both;
-	width: 30%;
-	float: left;
-	height: 60%;
-	background-color:azure;
-	margin: 5px;
-	padding: 5px;
-	font-size: 95%;
-}
-.member_frm {
-	width: 100%;
-}
-#col1 h1, h2 {
-	font-size: 110%;
-}
-div {
-	margin-bottom: 0.4em;
-}
 
-.row {
-	clear: both;
-}
-
-.col {
-	float: left;
-}
-
-#col1 label {
-	width:6em;
+#membershipdetail {
+	width: 73%;
 	float: left;
 	text-align: right;
-	margin-right: 0.4em;
-	}
-	
-#reset {
-	margin-left: 0.5em;
-}
-
-.error_msg {
-	color: red;
-	font-size: 80%;
-}
-
-#pwd_msg, #zip_msg {
-	margin-left: 5px;
-}
-#col1 h3 {
-	background-color:#A2E4EA;
-	padding: 2px;
-}
-
-#col2 {
-	width: 40%;
-	float: left;
-	height: 200%;
-	background-color:aquamarine;
+	height: 20em;
+	background-color:#000000;
 	margin: 7px;
 	padding: 10px;	
 }
-#col2 section h2 {
-	margin-left: 20px;
+#membershipdetail h1 {
 	font-size: 190%;
 }
-#col2 img {
-	float:center;
-	margin: 0px 20px 5px 20px;
+#membershipdetail img {
+	float:left;
+	margin: 1em 0.2em;
 }
-#memberships {
-	font-size: 110%;
-	margin-left: 20px;
-}
-#guidelines {
-	background-color: lightgreen;
-	font-size: 110%;
-	margin-left: 16px;
-}	
-#event_detail {
-	float: right;
-	margin-right: 2em;
-	padding-left: 2em;
-}
-#join_us {
-	margin-left: 10px;
-	margin-right: 10px;
-}
-#col3 {
-	width: 15%;
+#contact {
+	width: 23%;
 	float: left;
-	height: 50%;
+	height: 30%;
 	background-color:aliceblue;
-	margin: 5px 30px 5px 5px;
-	padding: 5px;
+	margin: 5px 2px 2px 5px;
 }
-#col3 h3 {
+#contact h1 {
 	margin: 2px;
 	padding-top: 10px;
 }
-h3 {
-	clear: both;
-	float: center;
-	margin: 0 auto;
-}
-#col4 {
+#officehours {
+	width: 22%;
 	float: left;
+	height: 50%;
 	background-color:aliceblue;
-	height: 60%;
-	width: 15%;
-	margin: 5px 30px 5px 5px;
+	margin: 0px 2px 5px 5px;
 	padding: 5px;
 }
-#col5 {
+#officehours h1 {
+	margin: 2px;
+	padding-top: 10px;
+}
+#centre {
 	clear: both;
 	float: left;
 	text-align: center;
 	font-size: 105%;
 	background-color: aliceblue;
 }
-#col5 h4,h5 {
+#centre h1 {
 	font-size: 120%;
 }
-footer h5 {
+#support {
+	clear: both;
+	text-align: center;
+	font-size: 105%;
+	background-color: aliceblue;
+	margin-top: 0.5em;
+}
+#support h1 {
+	font-size: 120%;
+}
+footer h1 {
 	clear: both;
 	font-size: 95%;
 	text-align: center;
