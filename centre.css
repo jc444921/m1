@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#wrapper {
+		width: 95%;
+		margin: 0 auto;
+}
+header {
+	background-image: url(TCMCbanner01.png);
+	height: 7.1em;
+}
+header h1 {
+	color: white;
+	margin-left: 6em;
+}
+
+header img {
+	float: left;
+	padding-right: 0;
+	padding-top: 20px;
+}
+
+header h2 {
+	padding-left: 0.2em;
+}
+
+.nav {
+	overflow: hidden;
+	background-color:#02071F;
+	width: 75%;
+	height: 3em;
+	float: right;
+}
+.nav a {
+	float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+}
+
+.nav a:hover, .dropdown:hover {
+	background-color: gray;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown-content {
+    display: none;
+    position:absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color:inherit;
+}
+#officehours {
+	clear: both;
+	width: 30%;
+	float: left;
+	text-align: center;
+	font-size: 105%;
+	background-color: aliceblue;
+	margin-right: 0.5em;
+}
+
+#centre {
+	width: 68%;
+	float: left;
+	text-align: center;
+	font-size: 105%;
+	background-color: aliceblue;
+}
+#centre img {
+	text-align: center;
+}
+#centre h1 {
+	font-size: 120%;
+}
+#30years {
+	clear: both;
+	float: left;
+	text-align: center;
+	font-size: 105%;
+	background-color: aliceblue;
+	margin: 1em 2em;
+}
+#wrapper30 h1 {
+	font-size: 120%;
+	margin-top: 2em;
+}
+#30years img {
+	float: left;
+}
+#history {
+	background-image:url(woodgrainlight.jpg);
+	clear: both;
+	width: 90%;
+	float: left;
+	text-align: inherit;
+	font-size: 105%;
+	background-color: aliceblue;
+	margin: 1em 2em;
+}
+#history h1 {
+	font-size: 120%;
+	text-align: center;
+}
+#support {
+	width: 100%;
+	clear: both;
+	float: left;
+	text-align: center;
+	font-size: 105%;
+	background-color: aliceblue;
+	margin-top: 1em;
+}
+#support img {
+	text-align: center;
+}
+#support h1 {
+	font-size: 120%;
+}
+footer h1 {
+	clear: both;
+	font-size: 120%;
+	text-align: center;
+	background-color:#02071F;
+}
