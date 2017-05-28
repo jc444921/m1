@@ -1,17 +1,21 @@
 @charset "utf-8";
 
 body {
+	background-color: black;
 	font-family: Helvetica, Arial, sans-serif;
 }
 
 #wrapper {
-	width: 95%;
-	margin: 0 auto;
+		width: 97%;
+		margin: 0 auto;
 }
-
 header {
 	background-image: url(TCMCbanner01.png);
 	height: 7.1em;
+}
+header h1 {
+	color: white;
+	margin-left: 6em;
 }
 
 header img {
@@ -20,7 +24,7 @@ header img {
 	padding-top: 20px;
 }
 
-header h1 {
+header h2 {
 	padding-left: 0.2em;
 }
 
@@ -79,9 +83,9 @@ header h1 {
     padding: 14px 16px;
     background-color:inherit;
 }
-#col1 {
+#membershipform {
 	clear: both;
-	width: 22%;
+	width: 31%;
 	float: left;
 	height: 60%;
 	background-color:azure;
@@ -92,7 +96,7 @@ header h1 {
 .member_frm {
 	width: 100%;
 }
-#col1 h1, h2 {
+#membershipform h1, h2 {
 	font-size: 110%;
 }
 div {
@@ -107,7 +111,7 @@ div {
 	float: left;
 }
 
-#col1 label {
+#membershipform label {
 	width:6em;
 	float: left;
 	text-align: right;
@@ -126,26 +130,26 @@ div {
 #pwd_msg, #zip_msg {
 	margin-left: 5px;
 }
-#col1 h3 {
+#membershipform h3 {
 	background-color:#A2E4EA;
 	padding: 2px;
 }
 
-#col2 {
-	width: 55%;
+#contact {
+	width: 60%;
 	float: left;
-	height: 90%;
-	background-color:aquamarine;
+	height: 60%;
+	background-color:aliceblue;
 	margin: 7px;
 	padding: 10px;	
 }
-#col2 section h2 {
+#contact h1 {
 	margin-left: 20px;
 	font-size: 190%;
 }
-#col2 img {
-	float:center;
-	margin: 0px 20px 5px 50px;
+#contact img {
+	float:right;
+	margin-top: 2em;
 }
 #logo {
 	text-align:right;
@@ -168,32 +172,8 @@ div {
 	margin-left: 10px;
 	margin-right: 10px;
 }
-#col3 {
-	width: 15%;
-	float: left;
-	height: 50%;
-	background-color:aliceblue;
-	margin: 5px 30px 5px 5px;
-	padding: 5px;
-}
-#col3 h3 {
-	margin: 2px;
-	padding-top: 10px;
-}
-h3 {
-	clear: both;
-	float: center;
-	margin: 0 auto;
-}
-#col4 {
-	float: left;
-	background-color:aliceblue;
-	height: 60%;
-	width: 15%;
-	margin: 5px 30px 5px 5px;
-	padding: 5px;
-}
-#col5 {
+
+#centre {
 	width: 95%;
 	clear: both;
 	float: left;
@@ -201,15 +181,29 @@ h3 {
 	font-size: 105%;
 	background-color: aliceblue;
 }
-#col5 h4 img {
-	align-self:center;
+#centre img {
+	text-align: center;
 }
-#col5 h4,h5 {
+#centre h1 {
 	font-size: 120%;
 }
-footer h5 {
+#support {
+	width: 95%;
 	clear: both;
-	font-size: 95%;
+	float: left;
 	text-align: center;
-	background-color: gray;
+	font-size: 105%;
+	background-color: aliceblue;
+}
+#support img {
+	text-align: center;
+}
+#support h1 {
+	font-size: 120%;
+}
+footer h1 {
+	clear: both;
+	font-size: 120%;
+	text-align: center;
+	background-color:#02071F;
 }
