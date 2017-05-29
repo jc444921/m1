@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Townsville Community Music Centre</title>
-<link href="style.css" rel="stylesheet" type="text/css">
+<link href="new_bulletin.css" rel="stylesheet" type="text/css">
 <script>
 	function run_first() {
 		var id_var = sessionStorage.li_id;
@@ -37,36 +37,36 @@
 				<button class="dropbtn" id="1">Events</button>
 				<div class="dropdown-content">
 					<a href="popular_event.html" onClick="nav_item_selected(1)">Current Events</a>
-					<a href="all_event.html" onClick="nav_item_selected(2)">History Event</a>	
+					<a href="all_event.html" onClick="nav_item_selected(1)">History Event</a>	
 				</div>
 			</div>
 			<div class="dropdown">
 				<button class="dropbtn" id="2">Bulletin Broad</button>
 				<div class="dropdown-content">
-					<a href="new_bulletin.html" onClick="nav_item_selected(3)">Post a New one</a>
-					<a href="bulletin_broad.html" onClick="nav_item_selected(4)">Open Broad</a>	
+					<a href="new_bulletin.html" onClick="nav_item_selected(2)">Post a New one</a>
+					<a href="bulletin_broad.html" onClick="nav_item_selected(2)">Open Broad</a>	
 				</div>
 			</div>
 			<div class="dropdown">
 				<button class="dropbtn" id="3">Musos</button>
 				<div class="dropdown-content">
-					<a href="self_musos.html" onClick="nav_item_selected(5)">Create yourself band</a>
-					<a href="artists.html" onClick="nav_item_selected(6)">Artists</a>
+					<a href="self_musos.html" onClick="nav_item_selected(3)">Create yourself band</a>
+					<a href="artists.html" onClick="nav_item_selected(3)">Artists</a>
 				</div>
 			</div>
 			<div class="dropdown">
 				<button class="dropbtn" id="4">Membership</button>
 				<div class="dropdown-content">
-					<a href="join_us.html" onClick="nav_item_selected(7)">Join Us</a>	
-					<a href="membership_details.html" onClick="nav_item_selected(8)">Membership Details</a>
+					<a href="join_us.html" onClick="nav_item_selected(4)">Join Us</a>	
+					<a href="membership_details.html" onClick="nav_item_selected(4)">Membership Details</a>
 				</div>
 			</div>
 			<div class="dropdown">
 				<button class="dropbtn" id="5">About Us</button>
 				<div class="dropdown-content">
-					<a href="contact_us.html" onClick="nav_item_selected(9)">Contact Us</a>	
-					<a href="centre.html" onClick="nav_item_selected(10)">Our Centre</a>
-					<a href="support.html" onClick="nav_item_selected(11)">Support Us</a>
+					<a href="contact_us.html" onClick="nav_item_selected(5)">Contact Us</a>	
+					<a href="centre.html" onClick="nav_item_selected(5)">Our Centre</a>
+					<a href="support.html" onClick="nav_item_selected(5)">Support Us</a>
 				</div>
 			</div>
 		</div>
@@ -74,7 +74,7 @@
     <h1 style="font-size: 190%">Welcome to <strong>
     <br>Townsville Community Music Centre--Post News on Broad</strong></h1>
     
-    <section id="col1">
+    <section id="member">
 		<script>		
 			function checkRePassword(document) {	
 			  var pwd = document.getElementById("password");
@@ -175,20 +175,32 @@
 			</form>
 		</div>
     </section>
-    <section id="col2">
+    <section id="news">
     	<h2>Post a news</h2>
-        <img src="bulletin2.png" alt="Current_Event">
+        <img src="bulletin.jpg" alt="Current_Event">
         <p id="Current_Event">
-        <br>Date: Evety first Saturday of every month
-        <br>Place: The town hall
-        <br>Time: 6pm - 11pm 
+        <br><strong>Attention Members</strong>
+        <br>The Music Centre has a series of Sunday afternoon concerts at <strong>C2</strong> and Friends of the Theatre have regular variety concerts at <strong>Pimlico PAC</strong>, also on Sunday afternoons. (<strong>Note-</strong>Because these venues have no foyer space, the theatre has to be open about an hour before the concert, so that audience members don't have to stand outside in the sun, wind, and rain) <br><br>
+
+<strong>Attention Musicians</strong> <br>Instead of playing bland recorded music before the show, we prefer to have student musicians playing on stage when the doors open. 
+As for the musicians, this is effectively a practice session with a live audience; they don't have to <strong>"perform"</strong>, they can stop and start as they feel comfortable with. They need to be of reasonably high standard, but they don't have to be polished performers. About 15 minutes before the concert start time, our compere introduces them, acknowledges the contribution of their school, and the curtain closes. The students are then welcome to stay for the concert. 
+<br><br> <strong>Kindly note</strong>
+
+<li>The students are considered volunteers, but we can help pay for expenses incurred. </li>
+
+<li>Small instrumental groups are preferred. The offer is open to all schools, so we need to schedule in advance. </li>
+
+<li>FOTT have 6 concerts per year, the Music Centre about 10. </li>
+
+brIf you would like to take part, please let us know so we can send you a list of concert dates as soon as they are confirmed. <br><br>
+        
         <br id="event_detail"><a href="popular_event.html">More details  </a>
         <a href="all_event.html">More events for you</a>
         <br><a href="join_us.html" id="join_us">Join Us  </a>
         <a href="membership_details.html">More about memberships</a>
         </p>
     </section>
-    <section id="col3">
+    <section id="contact">
     	<h2>Contact Us</h2>
         <p><strong><u>Contact Details: </u></strong>
         	<br><strong>Phone</strong>   07 4724 2086 
@@ -200,7 +212,7 @@
             <br><br><br>
         </p>
 	</section>
-    <section id="col4"> 
+    <section id="timings"> 
         <h3>Normal office hours</h3>
         <p>Monday - Wednesday
         <br>9.30 -2.30 
@@ -208,7 +220,7 @@
         <br>--0402 255 182
         </p>
     </section>
-    <section id="col5">
+    <section id="centre">
     	<h4>Our Centre</h4>
     	<p>Townsville Community Music Centre is a not-for-profit, incorporated organisation serving musicians and their audience in North Queensland. The Music Centre's role includes facilitation, presentation and promotion of events, functions, education, workshops, concerts, festivals in Townsville, and surrounding centres.</p>
     	<h5>Support</h5>
@@ -217,7 +229,10 @@
     	</p>
     </section>
     <footer>
-        <h5>Design By 007 - 2017</h5>
+      
+      <h5>
+      <img src="Facebook-Footer-300x99.png" alt="Like us on Facebook" >
+      </h5>
     </footer>
     </div>
 </body>

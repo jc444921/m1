@@ -2,12 +2,12 @@
 
 body {
 	font-family: Helvetica, Arial, sans-serif;
+	
 }
 
 #wrapper {
 	width: 95%;
 	margin: 0 auto;
-	background-color: #F4F4F4;
 }
 
 header {
@@ -80,7 +80,7 @@ header h1 {
     padding: 14px 16px;
     background-color: inherit;
 }
-#col1 {
+#member {
 	clear: both;
 	width: 22%;
 	float: left;
@@ -93,7 +93,7 @@ header h1 {
 .member_frm {
 	width: 100%;
 }
-#col1 h1, h2 {
+#member h1, h2 {
 	font-size: 110%;
 }
 div {
@@ -108,7 +108,7 @@ div {
 	float: left;
 }
 
-#col1 label {
+#member label {
 	width:6em;
 	float: left;
 	text-align: right;
@@ -127,24 +127,24 @@ div {
 #pwd_msg, #zip_msg {
 	margin-left: 5px;
 }
-#col1 h3 {
+#member h3 {
 	background-color:#A2E4EA;
 	padding: 2px;
 }
 
-#col2 {
+#news {
 	width: 55%;
 	float: left;
-	height: 400px;
-	background-color:aquamarine;
+	height: 200%;
+	background-color:#BB2437;
 	margin: 7px;
 	padding: 10px;	
 }
-#col2 section h2 {
+#news section h2 {
 	margin-left: 20px;
 	font-size: 190%;
 }
-#col2 img {
+#news img {
 	float:center;
 	margin: 0px 20px 5px 20px;
 }
@@ -166,7 +166,7 @@ div {
 	margin-left: 10px;
 	margin-right: 10px;
 }
-#col3 {
+#contact {
 	width: 15%;
 	float: left;
 	height: 50%;
@@ -174,7 +174,7 @@ div {
 	margin: 5px 30px 5px 5px;
 	padding: 5px;
 }
-#col3 h3 {
+#contact h3 {
 	margin: 2px;
 	padding-top: 10px;
 }
@@ -183,7 +183,7 @@ h3 {
 	float: center;
 	margin: 0 auto;
 }
-#col4 {
+#timings {
 	float: left;
 	background-color:aliceblue;
 	height: 60%;
@@ -191,93 +191,18 @@ h3 {
 	margin: 5px 30px 5px 5px;
 	padding: 5px;
 }
-#col5 {
+#centre {
 	clear: both;
 	float: left;
 	text-align: center;
 	font-size: 105%;
 	background-color: aliceblue;
 }
-#col5 h4,h5 {
+#centre h4,h5 {
 	font-size: 120%;
 }
 
-#Aviva {
-	margin: 10px 10px;
-	padding-top: 50px;
-	float:left;
-	width: 40%;
-    height: 50%;
-    margin: 0 auto;
-    padding-top: 20px;
-	padding-left: 2em;
-	padding-right: 2em;
-    background: #F4F4F4;
-}
-#Aviva img {
-	padding-right: 2em;
-	
-}
-#Wassa {
-	
-	margin: 10px 10px;
-	padding-top: 50px;
-	float:right;
-	width: 40%;
-    height: 40%;
-    margin:  auto;
-    padding-top: 20px;
-	padding-left: 2em;
-	padding-right: 2em;
-    background: #F4F4F4;
-}
-#Wassa img {
-	padding-right: 2em;
-}
-#Celtic {
-	clear:both;
-	margin: 10px 10px;
-	padding-top: 60px;
-	float:left;
-	width: 40%;
-    height: 50%;
-    margin: 0 auto;
-    padding-top: 20px;
-	padding-left: 2em;
-	padding-right: 2em;
-    background: #F4F4F4;
-}
-#Celtic img {
-	padding-right: 2em;
-}
-#Poms {
-	margin: 10px 10px;
-	padding-top: 50px;
-	float:right;
-	width: 40%;
-    height: 40%;
-    margin:  auto;
-    padding-top: 20px;
-	padding-left: 2em;
-	padding-right: 2em;
-    background: #F4F4F4;
-}
-#Poms img {
-	padding-right: 2em;
-}
-
-#col26 {
-	margin: 10px 10px;
-	padding-top: 50px;
-	float:left;
-}
-#col27 {
-	margin: 10px 10px;
-	padding-top: 50px;
-	float:right;
-}
-
-footer {
+	footer {
 	clear: both;
 	font-size: 95%;
 	text-align: center;
@@ -285,3 +210,4 @@ footer {
 	padding-left: 5px;
 	
 }
+		
