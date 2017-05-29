@@ -119,10 +119,14 @@ header h1 {
 	text-align: center;
 }
 footer {
-	clear: both;
-	font-size: 95%;
-	height: 10%;
-	text-align: center;
+	clear:both;
+	font-size:105%;
+	height:13%;
+	text-align:center;
 	background-color: #02071F;
 }
+footer img {
+	float:right;
+}
+
 
