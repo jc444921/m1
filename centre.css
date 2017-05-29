@@ -113,7 +113,7 @@ header h2 {
 	font-size: 110%;
 	background-color: aliceblue;
 	margin: 1em 2em;
-	padding: 2em;
+	padding: 3em;
 }
 #first30years h1 {
 	font-size: 120%;
@@ -122,7 +122,7 @@ header h2 {
 #first30years img {
 	float:left;
 	margin: 3.5em 0;
-	padding:0.5em;
+	padding:1em;
 }
 
 #history {
@@ -134,7 +134,7 @@ header h2 {
 	font-size: 105%;
 	background-color: aliceblue;
 	margin: 1em 2em;
-	padding: 1em;
+	padding: 2em;
 }
 #history h1 {
 	font-size: 120%;
