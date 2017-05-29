@@ -201,9 +201,14 @@ div {
 #support h1 {
 	font-size: 120%;
 }
-footer h1 {
-	clear: both;
-	font-size: 120%;
-	text-align: center;
-	background-color:#02071F;
+footer {
+	clear:both;
+	font-size:105%;
+	height:13%;
+	text-align:center;
+	background-color: #02071F;
 }
+footer img {
+	float:right;
+}
+
