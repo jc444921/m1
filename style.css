@@ -200,9 +200,14 @@ h3 {
 #col5 h4,h5 {
 	font-size: 120%;
 }
-footer h5 {
+footer {
 	clear: both;
 	font-size: 95%;
 	text-align: center;
-	background-color: gray;
+	background-color:#363636;
+	padding-left: 5px;
+	
 }
+
+
+
