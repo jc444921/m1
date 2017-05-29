@@ -105,26 +105,28 @@ header h2 {
 #centre h1 {
 	font-size: 120%;
 }
-#30years {
-	clear: both;
+#first30years {
+	clear:both;
 	float: left;
 	text-align: center;
-	font-size: 105%;
+	font-size: 110%;
 	background-color: aliceblue;
 	margin: 1em 2em;
 }
-#wrapper30 h1 {
+#first30years h1 {
 	font-size: 120%;
-	margin-top: 2em;
+	margin-top: 1.5em;
 }
-#30years img {
-	float: left;
+#first30years img {
+	float:left;
+	margin: 3.5em 0;
 }
+
 #history {
 	background-image:url(woodgrainlight.jpg);
 	clear: both;
-	width: 90%;
-	float: left;
+	width: 95%;
+	float:inherit;
 	text-align: inherit;
 	font-size: 105%;
 	background-color: aliceblue;
@@ -149,9 +151,13 @@ header h2 {
 #support h1 {
 	font-size: 120%;
 }
-footer h1 {
-	clear: both;
-	font-size: 120%;
-	text-align: center;
-	background-color:#02071F;
+footer {
+	clear:both;
+	font-size:105%;
+	height:13%;
+	text-align:center;
+	background-color: #02071F;
+}
+footer img {
+	float:right;
 }
