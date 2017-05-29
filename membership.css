@@ -87,7 +87,7 @@ header h1 {
 	height: 20em;
 	background-color:#000000;
 	margin: 7px;
-	padding: 10px;	
+	padding: 1em;	
 }
 #membershipdetail h1 {
 	font-size: 190%;
@@ -97,11 +97,12 @@ header h1 {
 	margin: 1em 0.2em;
 }
 #contact {
-	width: 23%;
-	float: left;
+	width: 22%;
+	float: right;
 	height: 30%;
 	background-color:aliceblue;
-	margin: 5px 2px 2px 5px;
+	margin: 5px 2px 2px 0.5em;
+	padding-left:1em;
 }
 #contact h1 {
 	margin: 2px;
@@ -109,11 +110,11 @@ header h1 {
 }
 #officehours {
 	width: 22%;
-	float: left;
+	float: right;
 	height: 50%;
 	background-color:aliceblue;
 	margin: 0px 2px 5px 5px;
-	padding: 5px;
+	padding-left:1em;
 }
 #officehours h1 {
 	margin: 2px;
@@ -125,6 +126,7 @@ header h1 {
 	text-align: center;
 	font-size: 105%;
 	background-color: aliceblue;
+	padding:2em;
 }
 #centre h1 {
 	font-size: 120%;
