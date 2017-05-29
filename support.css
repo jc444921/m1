@@ -8,7 +8,10 @@ body {
 	width: 95%;
 	margin: 0 auto;
 }
-
+#title {
+	color:white;
+	padding: 1.5em 1em 0.5em 5em;
+}
 header {
 	background-image: url(TCMCbanner01.png);
 	height: 7.1em;
@@ -20,8 +23,8 @@ header img {
 	padding-top: 20px;
 }
 
-header h1 {
-	padding-left: 0.2em;
+#welcome {
+	padding-left: 2em;
 }
 
 .nav {
@@ -94,29 +97,35 @@ header h1 {
 	float: left;
 	text-align: center;
 	margin-bottom: 1em;
+	padding: 0.5em 15em 0.5em 1em;
 }
 #sponsors img {
 	float: left;
+	padding: 1em 1em 0.5em 15em;
 }
 #CityCouncil {
 	clear: both;
 	float: left;
 	margin-top: 1em;
+	padding: 1em 2em 1em 15em;
 }
 #CityCouncil img {
 	clear: both;
 	float: right;
 	text-align: center;
+	padding:0.5em 15em 0.5em 0.5em;
 }
 #Government {
 	clear: both;
 	float: left;
 	margin-top: 1em;
 	margin-bottom: 2em;
+	padding: 1em 15em 1em 5em;
 }
 #Government img {
 	float: left;
 	text-align: center;
+	padding: 0.5em 3em 0.5em 15em;
 }
 footer {
 	clear:both;
